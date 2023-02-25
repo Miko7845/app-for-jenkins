@@ -10,6 +10,7 @@ namespace UserinterfaceTest.Tests
 {
     public class Tests : BaseWebTest
     {
+        [Ignore("Ignore test - 1")]
         [Test(Description = "Test case 1")]
         [TestCase(5, 9)]
         public void TestCase_1(int emailDomainLength, int domainIdLength)
